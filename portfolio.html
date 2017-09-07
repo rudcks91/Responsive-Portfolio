@@ -1,27 +1,28 @@
 <!doctype html>
 <html lang="en-us">
-
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
+
+<div class="wrapper">
 
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Your Name</a>
       <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <div id="main-container" class="container">
+  <main class="container">
     <section class="main-section">
       <h1>Portfolio</h1>
 
@@ -41,12 +42,12 @@
         <h3>Trivia Game</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Info Widget">
 
-        <h3>Rutgers Info Widget</h3>
+        <h3>Info Widget</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+        <img src="assets/images/technics-q-c-640-480-9.jpg"  alt="Rock Paper Scissors">
 
         <h3>Rock Paper Scissors</h3>
       </div>
@@ -57,18 +58,21 @@
       <div id="connect">
         <h2>Connect with Me</h2>
 
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        <ul>
+          <li><a href="#"><img src="assets/images/github-128.png" alt="Github"></a></li>
+          <li><a href="#"><img src="assets/images/linkedin-128.png" alt="LinkedIn"></a></li>
+          <li><a href="#"><img src="assets/images/stackoverflow-128.png" alt="Stack Overflow"></a></li>
+        </ul>
       </div>
     </section>
-  </div>
+  </main>
+  <div class="push"></div>
+</div>
 
   <footer>
     <div class="container">
-      Copyright &copy; 2016 Your Name
+      &copy; Copyright 2016 Your Name
     </div>
   </footer>
 </body>
-
 </html>
